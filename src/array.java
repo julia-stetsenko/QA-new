@@ -13,15 +13,15 @@ public class array {
                 {getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99)},
                 {getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99), getRandom(-99, 99)}
         };
-        int max_num   = 0;
+        int max_number   = 0;
     for (int i = 0; i < new_array.length; i++){
         for ( int j=0; j < new_array[i].length; j++){
             System.out.println(new_array[i][j]);
-            if (max_num < new_array[i][j]){
-                max_num = new_array[i][j];
+            if (max_number < new_array[i][j]){
+                max_number = new_array[i][j];
             }
         }
         }
-        System.out.printf("Max number of the array is %d", max_num);
+        System.out.printf("Max number of the array is %d", max_number);
     }
 }
